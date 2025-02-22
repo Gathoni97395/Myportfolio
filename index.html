@@ -88,11 +88,28 @@
 									<a href="h" class="image fit"><img src="images/p1.jpg" alt="" /></a>
 									<p>A  project to analyze data for a fast growing technology unicorn social media company using Power BI.</p>
 									<ul class="actions special">
-							
+							<li>
+    <a href="javascript:void(0);" class="button" onclick="toggleIframe()">View Project</a>
+    <div id="presentation-container" style="display:none;">
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRZk1fqSbE2mbXuoV-R4wudCaZg8IPJnvKQ2RL4iVWbPxPjd8rUt8AiYAnK6Pio9DJ-rNQ46FT5535Z/embed?start=true&loop=false&delayms=5000" 
+                frameborder="0" width="1920" height="1109" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+        </iframe>
+    </div>
+</li>
+
+<script>
+    function toggleIframe() {
+        var iframeContainer = document.getElementById("presentation-container");
+        if (iframeContainer.style.display === "none") {
+            iframeContainer.style.display = "block"; // Show iframe
+        } else {
+            iframeContainer.style.display = "none"; // Hide iframe
+        }
+    }
+</script>
+
 									
-										<li> <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRZk1fqSbE2mbXuoV-R4wudCaZg8IPJnvKQ2RL4iVWbPxPjd8rUt8AiYAnK6Pio9DJ-rNQ46FT5535Z/embed?start=true&loop=false&delayms=5000" frameborder="0" width="2880" height="1649" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" 
-											     class="button">View projects </iframe>
-										</li>
+										
                                                                
                                                            
 									</ul>
